@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-uint8_t alu(uint8_t op1,uint8_t op2,char operation){
+int alu(int op1,int op2,char operation){
 	if(operation == '+')
 		return op1 + op2;
 	else if(operation == '-')
@@ -20,9 +20,9 @@ uint8_t alu(uint8_t op1,uint8_t op2,char operation){
 }
 
 int main() {
-    uint8_t op1, op2;
+    int op1, op2;
     char operation;
-	uint8_t result = 0;
+	int result = 0;
     
 	while (1){
 		printf("Enter first operant ");
