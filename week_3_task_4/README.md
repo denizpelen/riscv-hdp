@@ -1,29 +1,9 @@
-# Project Title
+# RAIN DETECTION SYSTEM
 
-- TASKS
-    - Verify all the c code (counter, matrix multiplication, ALU code using RISC-V compiler and spike output.
-    - Measure CPU performance of all the programs mentioned above using either godbolt or RISC-V disassembler. 
+## FLOW CHART
 
-## COMPILATION WITH RISC-V COMPILER
-
-Compiling Codes with RISC-V Compiler and generating assembly outputs
- ![Compiling Codes with RISC-V Compiler](task1.JPG)
-
-- Generated files are the followings:
-    - counter.s (assembly code)
-    - counter   (spike output)
-    - alu.s 
-    - alu 
-
-Running compiled programs with spike
-
- ![1](spike_alu.JPG)
-
-
- ![2](spike_counter.JPG)
  
- 
- ## MEASURING CPU PERFORMANCE
+ ## REGISTER MAPPING
  In this part counter program which does not have printf function
  C code is given below:
  ```
