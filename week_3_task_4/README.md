@@ -79,6 +79,17 @@ int main(){
 
 }
 ```
-
- 
+```
+Number of different instructions: 9
+List of unique instructions:
+addi
+j
+andi
+lw
+beq
+ori
+sw
+li
+and
+``` 
  
