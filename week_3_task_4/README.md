@@ -1,5 +1,5 @@
 # RAIN DETECTION SYSTEM
-
+This project implements a simple rain alert system. System has chipcrone risc-v cpu. It reads the moisture sensor and rings the buzzer if it is raining.
 ## FLOW CHART
  ![flowchart](flowchart.JPG)
  
@@ -79,6 +79,10 @@ int main(){
 
 }
 ```
+
+ ## testing c code
+ ![flowchart](ctest.JPG)
+
 ```
 Number of different instructions: 9
 List of unique instructions:
