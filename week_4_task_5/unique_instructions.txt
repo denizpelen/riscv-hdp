@@ -1,0 +1,13 @@
+Number of different instructions: 10
+List of unique instructions:
+and
+j
+li
+slli
+addi
+lw
+or
+beqz
+andi
+sw
+
