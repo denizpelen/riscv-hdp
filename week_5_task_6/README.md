@@ -116,7 +116,7 @@ always @(posedge clk)
 ## Functional Simulation
  ![flowchart](compile.PNG)
 
-## Functional Simulation
+## GTKWave Sİmulation
 ![flowchart](start.PNG)
 
 
