@@ -161,6 +161,7 @@ It can be seen that our code's instructions are fetch one by one.
 When the input is high, means it's raining, the buzzer output sets high.
 ![flowchart](trig1.PNG)
 ![flowchart](trig.PNG)
+00ff6f33  (or t5,t5,a5) -> this instruction sets the output high. t5 is x30 register.
 ![flowchart](out_change.PNG)
 ![flowchart](out_change2.PNG)
 
