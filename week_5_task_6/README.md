@@ -115,6 +115,7 @@ always @(posedge clk)
 ```
 ## Functional Simulation
  ![flowchart](compile.PNG)
+![flowchart](start.PNG)
 
 
  
