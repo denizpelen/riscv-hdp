@@ -120,8 +120,8 @@ always @(posedge clk)
 ![flowchart](start.PNG)
 ![flowchart](trig1.PNG)
 ![flowchart](trig.PNG)
-![flowchart](outchange.PNG)
-![flowchart](outchange2.PNG)
+![flowchart](out_change.PNG)
+![flowchart](out_change2.PNG)
 
 
 
