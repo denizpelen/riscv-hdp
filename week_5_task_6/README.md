@@ -113,6 +113,8 @@ and
 always @(posedge clk)
 #4430 input_wires = ~input_wires;
 ```
+## Functional Simulation
+ ![flowchart](compilation.JPG)
 
 
  
