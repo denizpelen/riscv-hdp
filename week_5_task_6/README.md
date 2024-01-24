@@ -95,5 +95,24 @@ ori
 sw
 li
 and
-``` 
+```
+
+## Modifying the Processor for GPIO 
+```
+    always @(posedge clk) 
+    begin
+    output_pins = {30'b0, top_gpio_pins[1:1],  input_gpio_pins} ; 
+    output_gpio_pins = top_gpio_pins[1:1]; 
+    write_done = writing_inst_done ; 
+    instructions = write_inst_count[2:0]; 
+
+    end 
+```
+## Modifying the Testbench for input 
+```
+always @(posedge clk)
+#4430 input_wires = ~input_wires;
+```
+
+
  
