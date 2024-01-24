@@ -158,6 +158,7 @@ always @(posedge clk)
 ## GTKWave Simulation
 It can be seen that our code's instructions are fetch one by one. 
 ![flowchart](start.PNG)
+When the input is high, means it's raining, the buzzer output sets high.
 ![flowchart](trig1.PNG)
 ![flowchart](trig.PNG)
 ![flowchart](out_change.PNG)
