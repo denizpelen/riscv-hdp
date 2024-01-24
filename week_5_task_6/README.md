@@ -156,6 +156,7 @@ always @(posedge clk)
  ![flowchart](compile.PNG)
 
 ## GTKWave Simulation
+It can be seen that our code's instructions are fetch one by one. 
 ![flowchart](start.PNG)
 ![flowchart](trig1.PNG)
 ![flowchart](trig.PNG)
