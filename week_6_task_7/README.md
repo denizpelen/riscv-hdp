@@ -171,11 +171,11 @@ When the input is high, means it's raining, the buzzer output sets high.
 Leave the instruction memory and remove the data memory module in the processsor.v
 ```
 yosys> read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80_256.lib
-yosys> read_verilog processor_nodelay_gpio_doorbell.v
+yosys> read_verilog processor.v
 yosys> synth -top wrapper
 yosys> dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib
 yosys> abc -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib
-yosys> write_verilog synth_processor_nodelay_gpio_doorbell.v
+yosys> write_verilog synth_output.v
 ```
 ![flowchart](task1.PNG)
 ![flowchart](task2.PNG)
