@@ -177,11 +177,17 @@ yosys> dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib
 yosys> abc -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib
 yosys> write_verilog synth_output.v
 ```
+
+We can see the modules. 
 ![flowchart](task1.PNG)
+
+Below the resources are used listed.
 ![flowchart](task2.PNG)
 ![flowchart](task3.PNG)
-
-
-
-
+```
+iverilog -o test testbench_asic.v synth_output.v sky130_sram_1kbyte_1rw1r_32x256_8.v sky130_fd_sc_hd.v primitives.v
+vvp test -fst
+gtkwave waveform.vcd
+```
+![flowchart](trig1.PNG)
  
